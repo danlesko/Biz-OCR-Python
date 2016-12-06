@@ -4,10 +4,7 @@
 # Daniel Lesko
 # Biz-Card-OCR in Python
 
-from __future__ import print_function
-# Importing some common modules
 import os, sys
-import pprint
 import time
 import re
 
@@ -55,7 +52,6 @@ def getEmailAddress(data):
 			emailAddress = line
 
 	return emailAddress
-
 
 if __name__=="__main__":
 
